@@ -25,7 +25,7 @@ Loop
     If (var2 == 1)
     {
 		MsgBox, 65, External Monitor Disconnected!, Requesting to force display adapter to intel, 5
-        Run, D:\Vault\programing\HDMIdetect\resetdriver.bat, D:\
+        Run, resetdriver.bat,
     }
 
 }
